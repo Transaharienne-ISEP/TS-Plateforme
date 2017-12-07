@@ -1,0 +1,43 @@
+*
+{
+	color: white;
+	text-align: center;
+}
+
+body
+{
+	background: url("picture/chalkboard_8.jpg") fixed no-repeat;
+}
+
+nav
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+
+	a
+	{
+		border: 1px white solid;
+		width: 200px;
+		margin-top: 10px;
+		padding: 10px;
+	
+		border-radius: 5px;
+		box-shadow: 3px 3px 2px black;
+		text-decoration: none;
+	}
+	
+	a:hover
+	{
+		border: 1px white solid;
+		width: 200px;
+		padding: 10px;
+	
+		color: black;
+		background-color: white;
+		border-radius: 5px;
+		box-shadow: 2px 2px 75px white;
+		text-decoration: none;
+	}

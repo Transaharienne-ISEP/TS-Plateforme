@@ -1,0 +1,60 @@
+*
+{
+	color: white;
+	text-align: center;
+}
+
+body
+{
+	background: url("picture/chalkboard_11.jpg") fixed no-repeat;
+}
+
+.subject
+{
+	display: flex;
+	flex-direction: column;
+	border: 3px white solid;
+	border-radius: 10px;
+	width: 80%;
+	margin: auto;
+	margin-bottom: 25px;
+}
+
+	h3
+	{
+		color: black;
+		margin: auto;
+		margin-top: 0px;
+		padding: 10px;
+		border: 1px white solid;
+		border-radius: 0px 0px 20px 20px;
+		background-color: white;
+	}
+	
+	h4
+	{
+		text-decoration: underline;
+	}
+	
+a
+{
+	display: inline-block;
+	border: 1px white solid;
+	width: 100px;
+	padding: 10px;
+	margin-bottom: 20px;
+
+	border-radius: 5px;
+	box-shadow: 3px 3px 2px black;
+	text-decoration: none;
+}
+
+a:hover
+{
+	color: black;
+	background-color: white;
+	border-radius: 5px;
+	box-shadow: 2px 2px 75px white;
+	text-decoration: none;
+}
+	

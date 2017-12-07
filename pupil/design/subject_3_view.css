@@ -1,0 +1,52 @@
+*
+{
+	color: rgb(106, 68, 45);
+}
+
+body
+{
+	background: url("picture/histoire_4.jpg") fixed no-repeat;
+	display: flex;
+	flex-direction: row;
+}
+
+	.div_left
+	{
+		width: 0%;
+	}
+	
+	.div_mid
+	{
+		width: 50%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	
+	.div_right
+	{
+		width: 50%;
+	}
+
+	nav
+	{
+		display: flex;
+		margin-bottom: 30px;
+	}
+	
+		a
+		{
+			border: 1px rgb(106, 68, 45) solid;
+			border-radius: 10px;
+			background-color: white;
+			margin: 10px;
+			padding: 8px;
+			text-decoration: none;
+		}
+		
+		a:hover
+		{
+			color: white;
+			background-color: rgb(106, 68, 45);
+			box-shadow: 3px 3px 50px rgb(106, 68, 45);
+		}
