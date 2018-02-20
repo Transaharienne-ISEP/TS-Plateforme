@@ -8,7 +8,6 @@ function dbConnect()
         $db = new PDO('mysql:host=localhost;dbname=ts_project;charset=utf8', 'root', '');
         return $db;
     }
-    
     catch(Exception $e)
     {
         die('Erreur : '.$e->getMessage());
